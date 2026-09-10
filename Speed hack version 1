@@ -4,7 +4,6 @@ local window = Rayfield:CreateWindow({
     subtitle = "Rayfield Gen2",
     sidebarLayout = true,
     theme = "cobalt",
-})
 tab:CreateSlider({
     name = "Speed changer",
     range = { 20, 120 },
