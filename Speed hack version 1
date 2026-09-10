@@ -4,13 +4,13 @@ local window = Rayfield:CreateWindow({
     subtitle = "Rayfield Gen2",
     sidebarLayout = true,
     theme = "cobalt",
-tab:CreateSlider({
-    name = "Speed changer",
-    range = { 20, 120 },
-    increment = 1,
-    value = 100,
-    callback = function(value)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
+    tab:CreateSlider({
+        name = "Speed changer",
+        range = { 20, 120 },
+        increment = 1,
+        value = 100,
+        callback = function(value)
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
     end,
 })
 
